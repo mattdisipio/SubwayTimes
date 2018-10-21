@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
-using SubwayTimes.Services;
+using MTAServiceStatus;
 
 namespace SubwayTimes
 {
@@ -10,7 +10,7 @@ namespace SubwayTimes
         {
             var serviceProvider = new ServiceCollection()
                 .AddLogging()
-                .AddSingleton<ISubwayTimeService, SubwayTimeService>()
+                .AddSingleton<MTASubwayStatus>()
                 .AddSingleton<SubwayTimeServiceRunner>()
                 .BuildServiceProvider();
 

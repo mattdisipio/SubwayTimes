@@ -1,18 +1,19 @@
-﻿using System;
+﻿using MTAServiceStatus.Models;
+using System;
 
 namespace SubwayTimes.Models
 {
     public class SubwayInfo : IComparable
     {
-        public SubwayLineIds LineId { get; set; }
-        public string Status { get; set; }
-        public double TripInfoTime { get; set; }
+        public string LineId { get; set; }
+        public SubwayLine LineInfo { get; set; }
+        public DateTime DateForRecord { get; set; }
 
         public int CompareTo(object obj)
         {
             var other = (SubwayInfo)obj;
 
-            if (TripInfoTime < other.TripInfoTime)
+            if (DateForRecord < other.DateForRecord)
             {
                 return 1;
             }

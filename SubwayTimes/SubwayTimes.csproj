@@ -9,6 +9,7 @@
     <PackageReference Include="GtfsRealtimeBindings" Version="0.0.3" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.1.1" />
+    <PackageReference Include="MTAServiceStatus" Version="1.0.3" />
   </ItemGroup>
 
   <ItemGroup>
