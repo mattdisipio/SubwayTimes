@@ -8,8 +8,4 @@
     <PackageReference Include="GtfsRealtimeBindings" Version="0.0.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\SubwayTimes.Models\SubwayTimes.Models.csproj" />
-  </ItemGroup>
-
 </Project>

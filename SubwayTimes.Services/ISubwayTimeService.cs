@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
-using transit_realtime;
+﻿using SubwayTimes.Models;
+using System;
 
 namespace SubwayTimes.Services
 {
     public interface ISubwayTimeService
     {
-        IList<FeedEntity> GetTimes();
+        SubwayInfo UpdateTimes(SubwayLineIds lineId, DateTime lastSince);
     }
 }

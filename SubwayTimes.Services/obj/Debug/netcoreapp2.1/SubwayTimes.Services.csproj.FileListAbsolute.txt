@@ -1,8 +1,0 @@
-C:\Users\mattd\git\SubwayTimes\SubwayTimes.Services\bin\Debug\netcoreapp2.1\SubwayTimes.Services.deps.json
-C:\Users\mattd\git\SubwayTimes\SubwayTimes.Services\bin\Debug\netcoreapp2.1\SubwayTimes.Services.dll
-C:\Users\mattd\git\SubwayTimes\SubwayTimes.Services\bin\Debug\netcoreapp2.1\SubwayTimes.Services.pdb
-C:\Users\mattd\git\SubwayTimes\SubwayTimes.Services\obj\Debug\netcoreapp2.1\SubwayTimes.Services.csproj.CoreCompileInputs.cache
-C:\Users\mattd\git\SubwayTimes\SubwayTimes.Services\obj\Debug\netcoreapp2.1\SubwayTimes.Services.AssemblyInfoInputs.cache
-C:\Users\mattd\git\SubwayTimes\SubwayTimes.Services\obj\Debug\netcoreapp2.1\SubwayTimes.Services.AssemblyInfo.cs
-C:\Users\mattd\git\SubwayTimes\SubwayTimes.Services\obj\Debug\netcoreapp2.1\SubwayTimes.Services.dll
-C:\Users\mattd\git\SubwayTimes\SubwayTimes.Services\obj\Debug\netcoreapp2.1\SubwayTimes.Services.pdb
