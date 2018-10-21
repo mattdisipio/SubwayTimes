@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GtfsRealtimeBindings" Version="0.0.3" />
     <PackageReference Include="MTAServiceStatus" Version="1.0.3" />
   </ItemGroup>
 

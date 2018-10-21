@@ -20,5 +20,10 @@ namespace SubwayTimes.Models
 
             return -1;
         }
+
+        public string GetStatus()
+        {
+            return LineInfo.Status == ServiceStatus.DELAYS ? SubwayStatus.Delayed : SubwayStatus.OnTime;
+        }
     }
 }
