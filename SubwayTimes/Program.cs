@@ -1,24 +1,24 @@
+﻿using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
+using SubwayTimes.Services;
 
 namespace SubwayTimes
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
-        }
+            var serviceProvider = new ServiceCollection()
+                .AddLogging()
+                .AddSingleton<ISubwayTimeService, SubwayTimeService>()
+                .AddSingleton<SubwayTimeServiceRunner>()
+                .BuildServiceProvider();
 
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+            var app = serviceProvider.GetService<SubwayTimeServiceRunner>();
+
+            app.Run();
+
+            Console.ReadKey();
+        }
     }
 }

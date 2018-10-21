@@ -1,0 +1,14 @@
+C:\Users\mattd\git\SubwayTimes\SubwayTimes\bin\Debug\netcoreapp2.1\SubwayTimes.deps.json
+C:\Users\mattd\git\SubwayTimes\SubwayTimes\bin\Debug\netcoreapp2.1\SubwayTimes.runtimeconfig.json
+C:\Users\mattd\git\SubwayTimes\SubwayTimes\bin\Debug\netcoreapp2.1\SubwayTimes.runtimeconfig.dev.json
+C:\Users\mattd\git\SubwayTimes\SubwayTimes\bin\Debug\netcoreapp2.1\SubwayTimes.dll
+C:\Users\mattd\git\SubwayTimes\SubwayTimes\bin\Debug\netcoreapp2.1\SubwayTimes.pdb
+C:\Users\mattd\git\SubwayTimes\SubwayTimes\obj\Debug\netcoreapp2.1\SubwayTimes.csprojAssemblyReference.cache
+C:\Users\mattd\git\SubwayTimes\SubwayTimes\obj\Debug\netcoreapp2.1\SubwayTimes.csproj.CoreCompileInputs.cache
+C:\Users\mattd\git\SubwayTimes\SubwayTimes\obj\Debug\netcoreapp2.1\SubwayTimes.AssemblyInfoInputs.cache
+C:\Users\mattd\git\SubwayTimes\SubwayTimes\obj\Debug\netcoreapp2.1\SubwayTimes.AssemblyInfo.cs
+C:\Users\mattd\git\SubwayTimes\SubwayTimes\obj\Debug\netcoreapp2.1\SubwayTimes.dll
+C:\Users\mattd\git\SubwayTimes\SubwayTimes\obj\Debug\netcoreapp2.1\SubwayTimes.pdb
+C:\Users\mattd\git\SubwayTimes\SubwayTimes\bin\Debug\netcoreapp2.1\SubwayTimes.Services.dll
+C:\Users\mattd\git\SubwayTimes\SubwayTimes\bin\Debug\netcoreapp2.1\SubwayTimes.Services.pdb
+C:\Users\mattd\git\SubwayTimes\SubwayTimes\obj\Debug\netcoreapp2.1\SubwayTimes.csproj.CopyComplete
